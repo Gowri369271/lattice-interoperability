@@ -53,6 +53,72 @@ const dataset: FireSpreadDatasetRow[] = [
     severity: "Medium"
   },
   {
+    room: "Living Room",
+    objects: "Curtains",
+    occupants: 0,
+    ventilation: "Good",
+    smoke_level: 10,
+    fire_load: 14,
+    explosion_risk: 1,
+    escape_difficulty: 2,
+    severity: "Low"
+  },
+  {
+    room: "Bedroom",
+    objects: "Laptop",
+    occupants: 1,
+    ventilation: "Average",
+    smoke_level: 8,
+    fire_load: 44,
+    explosion_risk: 1,
+    escape_difficulty: 2,
+    severity: "Low"
+  },
+  {
+    room: "Storage Room",
+    objects: "Wooden Cabinet",
+    occupants: 1,
+    ventilation: "Good",
+    smoke_level: 6,
+    fire_load: 32,
+    explosion_risk: 0,
+    escape_difficulty: 1,
+    severity: "Low"
+  },
+  {
+    room: "Bedroom",
+    objects: "Laptop",
+    occupants: 0,
+    ventilation: "Average",
+    smoke_level: 12,
+    fire_load: 12,
+    explosion_risk: 1,
+    escape_difficulty: 2,
+    severity: "Low"
+  },
+  {
+    room: "Kitchen",
+    objects: "Microwave",
+    occupants: 0,
+    ventilation: "Good",
+    smoke_level: 12,
+    fire_load: 50,
+    explosion_risk: 0,
+    escape_difficulty: 2,
+    severity: "Low"
+  },
+  {
+    room: "Living Room",
+    objects: "Curtains",
+    occupants: 0,
+    ventilation: "Average",
+    smoke_level: 5,
+    fire_load: 46,
+    explosion_risk: 1,
+    escape_difficulty: 2,
+    severity: "Low"
+  },
+  {
     room: "Kitchen",
     objects: "LPG Cylinder,Wooden Cabinet",
     occupants: 4,
